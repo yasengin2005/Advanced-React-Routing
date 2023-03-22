@@ -1,7 +1,7 @@
 import React from "react";
 
 const EditEventPage = () => {
-  return <div>EditEventPage</div>;
+  return <h1>Edit Event Page</h1>;
 };
 
 export default EditEventPage;
