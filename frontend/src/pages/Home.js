@@ -1,21 +1,11 @@
-import { useNavigate } from "react-router-dom";
+import PageContent from '../components/PageContent';
 
-
-const HomePage = () => {
-  const navigate = useNavigate();
-  
-  const navigateHandler = () => {
-    navigate("events");
-  };
-
+function HomePage() {
   return (
-    <>
-      <h1>Home Page</h1>
-      <p>
-        <button onClick={navigateHandler}>Navigate</button>
-      </p>
-    </>
+    <PageContent title="Welcome!">
+      <p>Browse all our amazing events!</p>
+    </PageContent>
   );
-};
+}
 
 export default HomePage;
